@@ -9,7 +9,7 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 10s linear;
   }
 }
 
@@ -23,9 +23,32 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.square{
+  min-height: 5vh;
+  min-width: 5vh;
+  margin-right: 0.1vh;
+  margin-left: 0.1vh;
+}
 
+.Vis-canvas{
+}
 .App-link {
   color: #61dafb;
+}
+.Typing-input{
+  font: "Roboto";
+  font-size: 18.5px;
+  width:  100%;
+  margin: 0,0,0,0;
+  align-self:center;
+  vertical-align: middle;
+}
+.Typing-label{
+  font: "Roboto";
+  font-size: 20px;
+  margin: 0,0,0,0;
+  align-self:center;
+  vertical-align: middle;
 }
 
 @keyframes App-logo-spin {
